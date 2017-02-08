@@ -1,0 +1,45 @@
+\documentclass[11pt,a4paper,oneside,verdana]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{verdana}
+\usepackage[english]{babel}
+\usepackage{sectsty} % Section-header style
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{eurosym} %euro symbols for budget
+\usepackage{csquotes} %smart quotes
+
+\usepackage[left=2.5cm, right=2.5cm, top=3.5cm, bottom=2.5cm, headheight = 51pt]{geometry} % defines sides of document as in original
+
+\subsectionfont{\normalsize\bf}
+\subsubsectionfont{\normalsize\bf}
+\paragraphfont{\large\bfseries}
+
+% Redefine section labels
+%\renewcommand*{\thesection}{\arabic{section}}
+%\renewcommand{\thesubsection}{\arabic{section}\alph{subsection}.}
+
+\newcommand\invisiblesection[1]{%
+  \refstepcounter{section}%
+  \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}%
+  \sectionmark{#1}}
+% Produces invisible section to make counting work despite missing section headers
+
+
+\usepackage[dvipsnames]{xcolor} % allows coloured boxes at the beginning of "sections"
+\usepackage{colortbl} % allows coloured cells in tabular
+\usepackage{tikz}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\textcolor{gray}{\textbf{\normalsize{Research Talent}\\\footnotesize{Grant application form 2017 Full Proposal}}}}
+%\chead{\footnotesize \bf ~ \\ }
+\rhead{\footnotesize \bf \tikz\node[opacity=0.6]{\includegraphics[width=0.32\textwidth]{Figures/NWO_Logo_SoSciHum}};}
+
+
+\usepackage{todonotes} % allows adding todos on the text
+
+\author{Annika Schiefner}
+\title{Grant proposal writing}
