@@ -17,5 +17,11 @@ Copyright:
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Use: 
-GrantProposalWriting_Schiefner.tex is the main file. You will need to compile this once to get your desired output. The template does not include any tools for including a bibliography in the current version. You will need to implement this yourself. 
+Using the template: 
+
+GrantProposalWriting_Schiefner.tex is the main file. You will need to compile this once to get your desired output. 
+
+Known issues: 
+
+- The template does not include any tools for including a bibliography in the current version. You will need to implement this yourself. 
+- NWO requires the text to be in verdana. I have not managed to implement this so far. 
