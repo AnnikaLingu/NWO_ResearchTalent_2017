@@ -25,3 +25,4 @@ Known issues:
 
 - The template does not include any tools for including a bibliography in the current version. You will need to implement this yourself. 
 - NWO requires the text to be in verdana. I have not managed to implement this so far. 
+- Missing CV 
